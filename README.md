@@ -187,8 +187,6 @@ Event-driven assistant running on a local LLM with tool calling across social ch
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=grishika21&bg_color=0d1117&color=c9d1d9&line=00D4AA&point=ffffff&area=true&area_color=00D4AA&hide_border=true" width="100%" />
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/grishika21/grishika21/output/snake.svg" />
 </div>
