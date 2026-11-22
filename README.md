@@ -20,10 +20,10 @@
 # rishika@accenture:~$ whoami
 
 name      : Naga Venkata Rishika Guggilam
-role      : AI & Backend Software Engineer @ Accenture
-experience: 2+ years building production GenAI systems
+role      : AI/ML Engineer @ Accenture
+experience: 2+ years building production LLM systems, RAG pipelines & multi-agent apps
 domain    : Aerospace engineering workflows
-loves     : multi-agent orchestration, RAG, clean async APIs
+loves     : multi-agent orchestration, RAG, voice agents, clean async APIs
 education : B.Tech CSE, VR Siddhartha Engineering College (CGPA 9.05)
 open_to   : [AI Engineer, Generative AI, Agentic AI, Backend]
 ```
@@ -32,8 +32,8 @@ open_to   : [AI Engineer, Generative AI, Agentic AI, Backend]
 
 <table width="100%">
 <tr>
-<td align="center" width="25%"><h2>28+</h2>AI sub-agents orchestrated</td>
-<td align="center" width="25%"><h2>13</h2>stage NLP-to-SQL pipeline</td>
+<td align="center" width="25%"><h2>10</h2>AI sub-agents orchestrated</td>
+<td align="center" width="25%"><h2>~95%</h2>less engineer lookup effort</td>
 <td align="center" width="25%"><h2>1</h2>WIPO patent</td>
 <td align="center" width="25%"><h2>1</h2>SCI journal paper</td>
 </tr>
@@ -58,17 +58,24 @@ open_to   : [AI Engineer, Generative AI, Agentic AI, Backend]
 <img src="https://img.shields.io/badge/Qwen3-615CED?style=flat-square" />
 <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square" />
 <img src="https://img.shields.io/badge/A2A-0d1117?style=flat-square" />
+<img src="https://img.shields.io/badge/Tool_Calling-0d1117?style=flat-square" />
+<img src="https://img.shields.io/badge/Human--in--the--Loop-0d1117?style=flat-square" />
 </td></tr>
-<tr><td><b>NLP & Vision</b></td><td>
+<tr><td><b>NLP, Vision & Voice</b></td><td>
 <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
 <img src="https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/RAG-00D4AA?style=flat-square" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/SAM-0467DF?style=flat-square&logo=meta&logoColor=white" />
+<img src="https://img.shields.io/badge/faster--whisper-0d1117?style=flat-square" />
+<img src="https://img.shields.io/badge/Piper_TTS-0d1117?style=flat-square" />
 </td></tr>
 <tr><td><b>Backend</b></td><td>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" />
 <img src="https://img.shields.io/badge/SSE_Streaming-0d1117?style=flat-square" />
 <img src="https://img.shields.io/badge/Microservices-0d1117?style=flat-square" />
 </td></tr>
@@ -77,7 +84,7 @@ open_to   : [AI Engineer, Generative AI, Agentic AI, Backend]
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" />
 <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
 </td></tr>
 <tr><td><b>Cloud & Security</b></td><td>
@@ -99,17 +106,19 @@ open_to   : [AI Engineer, Generative AI, Agentic AI, Backend]
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 DataMind
-**Ask your database in plain English.**
+### 📞 [Callie](https://github.com/grishika21/callie)
+**A voice support agent that answers the phone.**
 
-A 13-stage RAG pipeline that converts natural language into safe, validated SQL.
+A bookstore voice agent built on TalkTable (MCP), for hands-free staff queries and a customer order phone line.
 
-- Graph-based JOIN discovery with NetworkX
-- Semantic schema retrieval via ChromaDB
-- Similarity cache (≥ 0.92) + confidence scoring
-- SELECT-only security guardrails
+- Plain-English questions to read-only queries over SQLite, PostgreSQL & MongoDB
+- Speech in and out with faster-whisper and Piper
+- Customer order line over Twilio
+- Runs on a local LLM with Ollama
 
-`Mistral 7B` `ChromaDB` `SQLAlchemy` `Sentence-Transformers`
+`LangChain` `MCP` `faster-whisper` `Piper` `Twilio` `Ollama`
+
+[Source on GitHub](https://github.com/grishika21/callie) · [Live Demo](ADD_YOUR_DEMO_LINK_HERE)
 
 </td>
 <td width="50%" valign="top">
@@ -135,25 +144,26 @@ Event-driven assistant running on a local LLM with tool calling across social ch
 ## 🛤️ Journey
 
 <details open>
-<summary><b>🟢 Package App Development Analyst — Accenture</b> · Jun 2026 – Present</summary>
+<summary><b>🟢 Full Stack LLM Development Analyst — Accenture</b> · Jun 2026 – Present</summary>
 <br/>
 
-**Agentic Chatbot — Orchestrator Framework**
-- FastAPI orchestrator that routes chats to specialised agents and streams replies over SSE
-- Azure OpenAI tool-calling loop that picks agents from a **live catalog**
-- Redis Pub/Sub auto-discovery with heartbeats, so new agents plug in with **zero orchestrator changes**
-- Per-user agent access from Azure B2C JWT claims, plus Azure Blob document handling
+- **Orchestrator:** FastAPI orchestrator using Azure OpenAI tool calling, with a LangGraph sub-orchestrator for agent discovery
+- **Live catalog:** picks agents from a **live catalog**; Redis Pub/Sub auto-discovery with heartbeats, so new agents plug in with **zero orchestrator changes**
+- **Skills framework:** 8 `SKILL.md` playbooks, so new document types ship with **zero code changes**
+- **Human-in-the-loop:** resumable workflows using LangGraph interrupts and a Redis checkpointer
+- **Access & delivery:** per-user agent access from Azure B2C JWT claims, Azure Blob document handling, replies streamed over SSE
 
 </details>
 
 <details>
-<summary><b>🔵 Package App Development Associate — Accenture</b> · Sep 2024 – May 2026</summary>
+<summary><b>🔵 Full Stack LLM Development Associate — Accenture</b> · Sep 2024 – May 2026</summary>
 <br/>
 
-- **LangGraph Multi-Agent Chatbot:** Supervisor Agent routing 28+ sub-agents with RBAC and human-in-the-loop
-- **eBOM Agent:** deep-agent supervisor talking to Teamcenter sub-agents over MCP, with a 7-stage pipeline
+- **LangGraph Multi-Agent Chatbot:** Supervisor Agent routes queries by user role across 10 sub-agents (ingestion, retrieval, STE validation, authoring) with RBAC and human-in-the-loop, cutting manual tool switching by **40%**
+- **KB Ingestion & Extraction Agents:** turn manuals and spreadsheets (including scanned PDFs) into a searchable knowledge base and answer engineers' questions in ~1 min with sources, cutting lookup effort by **~95%**
+- **eBOM Agent:** Azure OpenAI agent that turns Teamcenter, SAP or JSON parts data into a validated Teamcenter-ready BOM with a gap report, using a 7-stage pipeline and MCP sub-agents, cutting prep time by **85%**
 - **Process Instruction Agent:** page-indexed PDF/DOCX extraction with no vector DB, avoiding retrieval drift
-- **TWEET STE Validator:** spaCy + ASD-STE100 rules in Docker microservices, with LLM sentence correction
+- **STE Validator:** re-engineered the ASD-STE100 validator with spaCy in Docker microservices, cutting false positives by **30%**
 - **Illustration Comparison:** mapped CGM callouts to procedure steps for automated aircraft authoring
 
 </details>
@@ -162,7 +172,7 @@ Event-driven assistant running on a local LLM with tool calling across social ch
 <summary><b>⚪ Computer Vision Intern — Accenture</b> · Feb 2024 – Jun 2024</summary>
 <br/>
 
-- Image comparison pipelines with SAM, VGG features, and Mistral analysis for aerospace documentation
+- Illustration comparison pipeline with SAM segmentation, VGG features and Mistral LLM analysis for aerospace documentation
 
 </details>
 
@@ -198,7 +208,5 @@ Event-driven assistant running on a local LLM with tool calling across social ch
 ### 💬 Let's build something intelligent together
 
 <a href="https://www.linkedin.com/in/rishika-guggilam/"><img src="https://img.shields.io/badge/Say_hi_on_LinkedIn-00D4AA?style=for-the-badge&logo=linkedin&logoColor=black" /></a>
-
-
 
 </div>
